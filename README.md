@@ -9,7 +9,7 @@ This template is derived from [the official template](https://github.com/sveltej
 ```bash
 git clone https://github.com/qbane/sveltekit-template.git
 cd sveltekit-template
-rm -rf .git
+rm -rf .git .github
 git init
 npm i
 ```

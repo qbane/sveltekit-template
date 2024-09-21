@@ -2,6 +2,8 @@
   "name": "@qbane/sveltekit-template",
   "version": "0.0.1",
   "description": "My opinionated SvelteKit template in pure JavaScript.",
+  "author": "qbane",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "vite dev",
@@ -15,12 +17,11 @@
     "@sveltejs/adapter-node": "^5.1.1",
     "@sveltejs/kit": "^2.5.16",
     "svelte": "^4.2.18",
-    "svelte-check": "^3.8.0",
+    "svelte-check": "^4.0.2",
     "vite": "^5.3.1",
-    "vitest": "^1.6.0"
+    "vitest": "^2.1.1"
   },
   "engines": {
     "node": ">=18.0.0 <21.0.0"
-  },
-  "type": "module"
+  }
 }
