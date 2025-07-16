@@ -15,7 +15,7 @@ Some notable customizations are:
 ```bash
 git clone https://github.com/qbane/sveltekit-template.git
 cd sveltekit-template
-rm -rf .git .github
+rm -rf .git .github LICENSE
 git init
 npm i
 ```
