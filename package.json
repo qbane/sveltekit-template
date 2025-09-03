@@ -10,9 +10,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || true",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.app.json",
-    "tsc": "tsc -b jsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+    "svelte-kit-sync": "svelte-kit sync && rm -rf node_modules/.tmp",
+    "tsc": "tsc -b",
+    "check": "npm run svelte-kit-sync && svelte-check --tsconfig ./tsconfigs/tsconfig.app.json",
+    "check:watch": "npm run svelte-kit-sync && svelte-check --tsconfig ./tsconfigs/tsconfig.app.json --watch",
     "test:unit": "vitest",
     "test": "npm run test:unit -- --run"
   },
