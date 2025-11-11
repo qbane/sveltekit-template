@@ -14,7 +14,7 @@ Some notable customizations are:
 ## Instructions
 
 ```bash
-git clone https://github.com/qbane/sveltekit-template.git
+git clone https://github.com/qbane/sveltekit-template.git --depth=1
 cd sveltekit-template
 rm -rf .git .github LICENSE
 git init
