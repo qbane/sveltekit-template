@@ -1,6 +1,6 @@
 {
   "name": "@qbane/sveltekit-template",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "My opinionated SvelteKit template in pure JavaScript.",
   "author": "qbane",
   "type": "module",
@@ -18,14 +18,14 @@
     "test": "npm run test:unit -- --run"
   },
   "devDependencies": {
-    "@sveltejs/adapter-node": "~5.4.0",
-    "@sveltejs/kit": "~2.49.2",
-    "@sveltejs/vite-plugin-svelte": "~6.2.1",
-    "@types/node": "~22.19.3",
-    "svelte": "~5.46.0",
-    "svelte-check": "~4.3.4",
-    "typescript": "~5.9.3",
-    "vite": "~7.3.0",
+    "@sveltejs/adapter-node": "~5.5.4",
+    "@sveltejs/kit": "~2.59.1",
+    "@sveltejs/vite-plugin-svelte": "~6.2.4",
+    "@types/node": "~22.19.17",
+    "svelte": "~5.55.5",
+    "svelte-check": "~4.4.8",
+    "typescript": "~6.0.3",
+    "vite": "~7.3.2",
     "vitest": "~3.2.4"
   },
   "engines": {
