@@ -1,6 +1,6 @@
 {
   "name": "@qbane/sveltekit-template",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "My opinionated SvelteKit template in pure JavaScript.",
   "author": "qbane",
   "type": "module",
